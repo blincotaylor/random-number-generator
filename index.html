@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>DevProjects - Random Number Generator</title>
   </head>
-  <body></body>
+          <form action="" class="dice-info">
+              <!-- <label for="dice-quantity">How many dice would you like to roll?</label><br> -->
+              <input autocomplete="off" type="text" placeholder="How many die would you like to roll?" id="dice-quantity">
+              <p class="log"></p>
+              <label for="dice-sides">Choose the number of sides you want the dice to have</label><br>
+              <select name="dice-sides" id="dice-sides">
+                  <option value="4">d4</option>
+                  <option value="6">d6</option>
+                  <option value="8">d8</option>
+                  <option value="10">d10</option>
+                  <option value="12">d12</option>
+                  <option value="20">d20</option>
+              </select>
+              <p class="select-log"></p>
+          </form>
+    <script src="script.js"></script>
+  </body>
 </html>
